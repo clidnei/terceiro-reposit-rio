@@ -53,6 +53,42 @@ body {
     display: block;
 }
 
+.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
+.aba.conteuo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.aba.conteuo-titulo-segunario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
 @media screen and (min-width: 768px) { 
     .botoes { 
         display: flex;
